@@ -38,6 +38,7 @@
     border: 0;
     background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
     border-radius: 4px;
+    color: #FFFFFF;
 }
 
 #heading {
@@ -120,6 +121,10 @@
     width: 205px;
     height: 71px;
 }
+
+
+
+
 
 .uber {
     margin-top: 0.8%;
@@ -361,7 +366,11 @@
 
 .Blue-back {
     background: linear-gradient(270.04deg, #01B8D9 0.05%, #24CEED 97.84%);
-    height: 400px;
+    height: 350px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: #FFFFFF;
 }
 
 .button4 {
@@ -426,7 +435,10 @@
     font-size: 44px;
     line-height: 76px;
     color: #FFFFFF;
+}
 
+.heading10-col {
+    padding-top: 5%;
 }
 
 .heading11 {
@@ -509,7 +521,6 @@
     display: flex;
     justify-content: center;
     color: #FFFFFF;
-    margin-bottom: 10%;
 
 }
 
@@ -548,11 +559,151 @@
 .logos {}
 
 /* Media queries */
-@media (max-width: 576px) {
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .figure {
+        display: none;
+    }
+
+    .blue-background {
+        width: 100%;
+    }
+
+    .text-box1 {
+        margin-left: 51%;
+    }
+
+    .image2 {
+        margin-top: 70%;
+    }
+
+    .text-box2 {
+        margin-right: 43%;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .figure {
+        display: none;
+    }
+
+    .heading10-col {
+        text-align: center;
+    }
+
+    .col-stack {
+        display: none;
+    }
+
+    .Blue-back {
+        width: 100%;
+    }
+
+    .col-stack {
+        display: none;
+    }
+
+    .image1 {
+        margin-left: 60%;
+        margin-top: 8.5%;
+    }
+
+    .apps-row {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .button4 {
+        margin-top: 70%;
+    }
+
+    .text-box1 {
+        margin-left: 45%;
+    }
+
+    .image2 {
+        margin-left: 7%;
+        margin-top: 42.5%;
+    }
+
+    .text-box2 {
+        margin-right: 61%;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .figure {
+        display: none;
+    }
+
+    .col-stack {
+        display: none;
+    }
+
+    .heading10-col {
+        text-align: center;
+    }
+
+    .button4 {
+        margin-top: 100%;
+        padding-right: 5%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 0px) {
+    .figure {
+        display: none;
+    }
 
     .copywrites {
         margin-bottom: 0%;
 
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .column3 {
+        width: 100%;
+    }
+
+    .button4 {
+        margin-top: 100%;
+        padding-right: 5%;
+        margin-left: 0%;
+    }
+
+    .column4 {
+        width: 100%;
+    }
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .heading-para {
+        margin-left: 10px;
+    }
+
+    .vector {
+        margin-left: 10px;
+    }
+
+    .navbar-nav {
+        padding-left: 10px;
+    }
+
+    .copywrites {
+        font-size: 10px;
     }
 
     .image1 {
@@ -560,6 +711,22 @@
         margin-top: 8.5%;
     }
 
+    .image2 {
+        margin-left: 8%;
+        margin-top: 60%;
+    }
+
+    .button4 {
+        margin-top: 0%;
+    }
+
+    .heading10-col {
+        text-align: center;
+    }
+
+    .button5 {
+        margin-bottom: 0%;
+    }
 
     .text-box1 {
         margin-top: 5%;
@@ -633,40 +800,14 @@
 
     .Blue-back {
         width: 100%;
+        height: 300px;
     }
 }
 
-@media (max-width: 768px) {
-    .figure {
-        display: none;
-    }
-
-    .blue-background {
-        width: 100%;
-    }
-
-    .col-stack {
-        display: none;
-    }
-}
-
-@media (max-width: 992px) {
-    .Blue-back {
-        width: 100%;
-    }
-
-    .col-stack {
-        display: none;
-    }
-
-}
-
-@media (max-width: 1200px) {
-    .figure {
-        display: none;
-    }
-
-    .blue-background {
-        width: 100%;
+@media screen and (max-width: 576px) and (min-width: 451px) {
+    .button4 {
+        margin-top: 100%;
+        padding-right: 5%;
+        margin-left: 0%;
     }
 }
