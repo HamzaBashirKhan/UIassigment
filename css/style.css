@@ -556,9 +556,138 @@
 
 }
 
+.card-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    margin-left: -14px;
+    letter-spacing: 0.2px;
+    color: #005490;
+
+}
+
+.card-buttons {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.card1 {
+    position: relative;
+    background-color: #FFFFFF;
+    height: auto;
+    width: auto;
+}
+
+.card2 {
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.card3 {
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.card-headings {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.1px;
+
+    /* text-color */
+
+    color: #252B42;
+}
+
+.card-para {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+}
+
 .logos {}
 
-/* Media queries */
+/* Media queries */
+@media screen and (max-width: 1800px) and (min-width: 1201px) {
+    .mobile-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button6 {
+        position: absolute;
+        margin-right: 200px;
+        background-color: #005490;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .card1 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-240%, 30%);
+        /* background-image: url("../images/card1.png"); */
+    }
+
+    .card1 .icon1 {
+        position: absolute;
+        transform: translate(-240%, 600%);
+    }
+
+    .card2 {
+        position: relative;
+    }
+
+    .card2 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-175%, 30%);
+    }
+
+    .card2 .icon2 {
+        position: absolute;
+        transform: translate(-240%, 600%);
+    }
+
+    .card3 {
+        position: relative;
+    }
+
+    .card3 .btn {
+        position: absolute;
+        transform: translate(-295%, 30%);
+    }
+
+    .card3 .icon3 {
+        position: absolute;
+        transform: translate(-240%, 600%);
+    }
+
+    .light-blue-bkg {
+        /* background-color: #EFFBFF; */
+        background-color: #EFFBFF;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     .figure {
         display: none;
@@ -578,6 +707,60 @@
 
     .text-box2 {
         margin-right: 43%;
+    }
+
+    .row1 {
+        background-color: black;
+    }
+
+    .button6 {
+        position: absolute;
+        margin-right: 200px;
+        background-color: #005490;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .card1 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-205%, 30%);
+        /* background-image: url("../images/card1.png"); */
+    }
+
+    .card1 .icon1 {
+        position: absolute;
+        transform: translate(-200%, 500%);
+    }
+
+    .card2 {
+        position: relative;
+    }
+
+    .card2 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-148%, 30%);
+    }
+
+    .card2 .icon2 {
+        position: absolute;
+        transform: translate(-200%, 500%);
+    }
+
+    .card3 {
+        position: relative;
+    }
+
+    .card3 .btn {
+        position: absolute;
+        transform: translate(-245%, 30%);
+    }
+
+    .card3 .icon3 {
+        position: absolute;
+        transform: translate(-210%, 500%);
     }
 }
 
@@ -632,6 +815,56 @@
     .footer-logo {
         text-align: center;
     }
+
+    .button6 {
+        position: absolute;
+        margin-right: 200px;
+        background-color: #005490;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .card1 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-225%, 30%);
+        /* background-image: url("../images/card1.png"); */
+    }
+
+    .card1 .icon1 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
+
+    .card2 {
+        position: relative;
+    }
+
+    .card2 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-164%, 30%);
+    }
+
+    .card2 .icon2 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
+
+    .card3 {
+        position: relative;
+    }
+
+    .card3 .btn {
+        position: absolute;
+        transform: translate(-290%, 30%);
+    }
+
+    .card3 .icon3 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 576px) {
@@ -652,12 +885,64 @@
         padding-right: 5%;
         margin-left: 0%;
     }
+
+    .button6 {
+        position: absolute;
+        margin-right: 200px;
+        background-color: #005490;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .card1 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-225%, 30%);
+        /* background-image: url("../images/card1.png"); */
+    }
+
+    .card1 .icon1 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
+
+    .card2 {
+        position: relative;
+    }
+
+    .card2 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-164%, 30%);
+    }
+
+    .card2 .icon2 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
+
+    .card3 {
+        position: relative;
+    }
+
+    .card3 .btn {
+        position: absolute;
+        transform: translate(-290%, 30%);
+    }
+
+    .card3 .icon3 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
 }
 
 @media screen and (max-width: 575px) and (min-width: 0px) {
     .figure {
         display: none;
     }
+
+
 
     .copywrites {
         margin-bottom: 0%;
@@ -802,6 +1087,56 @@
         width: 100%;
         height: 300px;
     }
+
+    .button6 {
+        position: absolute;
+        margin-right: 200px;
+        background-color: #005490;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .card1 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-225%, 30%);
+        /* background-image: url("../images/card1.png"); */
+    }
+
+    .card1 .icon1 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
+
+    .card2 {
+        position: relative;
+    }
+
+    .card2 .btn {
+        position: absolute;
+        padding-right: 5%;
+        transform: translate(-164%, 30%);
+    }
+
+    .card2 .icon2 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
+
+    .card3 {
+        position: relative;
+    }
+
+    .card3 .btn {
+        position: absolute;
+        transform: translate(-290%, 30%);
+    }
+
+    .card3 .icon3 {
+        position: absolute;
+        transform: translate(-230%, 550%);
+    }
 }
 
 @media screen and (max-width: 576px) and (min-width: 451px) {
@@ -810,6 +1145,8 @@
         padding-right: 5%;
         margin-left: 0%;
     }
+
+
 
     /* {
 
