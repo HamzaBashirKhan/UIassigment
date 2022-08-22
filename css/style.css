@@ -1106,7 +1106,7 @@
 
     .card1 .icon1 {
         position: absolute;
-        transform: translate(-230%, 550%);
+        transform: translate(-230%, 450%);
     }
 
     .card2 {
@@ -1116,12 +1116,12 @@
     .card2 .btn {
         position: absolute;
         padding-right: 5%;
-        transform: translate(-164%, 30%);
+        transform: translate(-140%, 30%);
     }
 
     .card2 .icon2 {
         position: absolute;
-        transform: translate(-230%, 550%);
+        transform: translate(-230%, 450%);
     }
 
     .card3 {
@@ -1130,12 +1130,12 @@
 
     .card3 .btn {
         position: absolute;
-        transform: translate(-290%, 30%);
+        transform: translate(-230%, 30%);
     }
 
     .card3 .icon3 {
         position: absolute;
-        transform: translate(-230%, 550%);
+        transform: translate(-230%, 450%);
     }
 }
 
